@@ -8,5 +8,5 @@
 
 3. Drain, add dairy:
 
-    - **milk**, _splash_
-    - **butter**, _knob_
+    - **milk** splash
+    - **butter** knob
