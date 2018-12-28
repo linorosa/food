@@ -2,6 +2,11 @@
 
 _From [mind over munch](https://www.youtube.com/watch?v=94AZ3FhVdpM)_
 
+- [Banana Nut](#banana-nut-muffin)
+- [Chocolate Chip](#chocolate-chip-muffin)
+- [Double Chocolate](#double-chocolate-muffin)
+- [Blueberry](#blueberry-muffin)
+
 ## Banana Nut Muffin
 
 1. On a large bowl, add and mix:
