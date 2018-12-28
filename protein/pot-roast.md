@@ -12,13 +12,13 @@
 
 Add back all previous ingredients, plus:
 
-- 5 cloves **garlic**
-- 1 quart **chicken stock**
-- 1 tbsp **balsamic vinegar**
-- 4 tbsp **paprika**
-- 2 **bay leaves**
-- 2 tbsp **ground coriander**
-- 2 tsp **ground cinnamon**
+	- 5 cloves **garlic**
+	- 1 quart **chicken stock**
+	- 1 tbsp **balsamic vinegar**
+	- 4 tbsp **paprika**
+	- 2 **bay leaves**
+	- 2 tbsp **ground coriander**
+	- 2 tsp **ground cinnamon**
 
 Optional:
 
