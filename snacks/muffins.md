@@ -2,10 +2,10 @@
 
 _From [mind over munch](https://www.youtube.com/watch?v=94AZ3FhVdpM)_
 
-- [Banana Nut](#banana-nut-muffin)
-- [Chocolate Chip](#chocolate-chip-muffin)
-- [Double Chocolate](#double-chocolate-muffin)
-- [Blueberry](#blueberry-muffin)
+- [Banana Nut](#banana-nut-muffins)
+- [Chocolate Chip](#chocolate-chip-muffins)
+- [Double Chocolate](#double-chocolate-muffins)
+- [Blueberry](#blueberry-muffins)
 
 ## Banana Nut Muffins
 
