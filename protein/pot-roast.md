@@ -26,4 +26,4 @@
 	- **sweet potatoes**
 	- **squash**
 
-5 . Cook on 275F for 5 hours
+5. Cook on 275F for 5 hours
