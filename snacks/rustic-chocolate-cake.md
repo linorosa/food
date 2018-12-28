@@ -4,7 +4,7 @@ _From nom nom paleo's Ready or Not_
 
 1. Grease an 8-inch round cake pan and line with parchement paper
 
-2. On a large bowl whisk
+2. On a large bowl whisk:
 
 	- 2 cups **almond flour**
 	- 1/2 cup **cocoa powder**
@@ -13,7 +13,7 @@ _From nom nom paleo's Ready or Not_
 	
 3. On a separate bowl whisk until smooth
 
-	- 2 **eggs*
+	- 2 **eggs**
 	- 1/2 cup **swerve**
 	
 4. Pour in with the egg mix and whisk more
