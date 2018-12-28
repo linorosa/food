@@ -6,11 +6,11 @@
 
 2. Sautee until translucent:
 
-	- 2 cups **carrot**s chopped
-	- 1 **onion**	chopped
+	- 2 cups **carrot** chopped
+	- 1 **onion** chopped
 	- 3 cups **mushrooms** sliced
 
-Add back all previous ingredients, plus:
+3. Add back all previous ingredients, plus:
 
 	- 5 cloves **garlic**
 	- 1 quart **chicken stock**
@@ -20,10 +20,10 @@ Add back all previous ingredients, plus:
 	- 2 tbsp **ground coriander**
 	- 2 tsp **ground cinnamon**
 
-Optional:
+4. Optional:
 
 	- **potatoes**
 	- **sweet potatoes**
 	- **squash**
 
-3. Cook on 275F for 5 hours
+5 . Cook on 275F for 5 hours
