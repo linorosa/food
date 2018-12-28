@@ -1,5 +1,7 @@
 # Carne Mechada
 
+_From nom nom paleo's Ready or Not_
+
 1. On a large bowl, mix with spices and rest
 
 	- 3 lb **flank steak** cut against the grain in 2-inch strips
