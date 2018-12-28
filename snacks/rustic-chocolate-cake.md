@@ -32,7 +32,7 @@ _From nom nom paleo's Ready or Not_
 
 9. Meanwhile make the topping, transferring whipping cream into a chilled bowl and whisking until soft peaks.
 
-	- 1 small carton **whipping cream**
+	- 1 cup **whipping cream**
 	- 1 tbsp **swerve**
 	- 1/2 tsp **vanilla extract**
 	
