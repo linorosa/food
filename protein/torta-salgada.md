@@ -13,10 +13,10 @@
 
     - 1 tbsp **baking powder**
     
-3. The filling could be anything, either:
+3. Prepare the filling:
 
-    - 1 lb cooked **ground beef** and frozen veggies
-    - ham and cheese
+    - 1 lb cooked **ground beef**
+    - **frozen veggies**
     
 4. In a parchemend-lined square deep dish, put half the dough, then the filling, then the rest of the dough.
 
