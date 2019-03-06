@@ -9,7 +9,7 @@
 2. Add seasoning and mix well
 
 	- 1/2 tsp salt
-	- 1/3 cup **swerve**
+	- 1/4 cup **honey** (
 	- 1/2 cup **coconut oil or butter**
 
 3. Line baking sheet with parchment paper. Form cookies with dough and bake for 15-18 minutes at 350F.
