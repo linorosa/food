@@ -4,7 +4,7 @@ _From [cuisine futee](http://cuisinefuteeparentspresses.telequebec.tv/recettes/4
 
 1. Mix everything:
 
-	- 1/3 cup **maple syrup**
+    - 1/2 cup **maple syrup**
     - 3 tbsp **cocoa powder**
     - 2 tbsp **avocado oil**
     - 1/2 cups **pecans**, roughly chopped
