@@ -4,13 +4,13 @@ _From the book "Food: What the Heck Should I Eat" (p. 298)_
 
 1. Place in a large bowl. Cover and let it sit at room temperature for 8 to 12 hours.
 	
-	- 3/4 cup **buckwheat groats**
+	- 1 cup **buckwheat groats**
     - 1 tbsp **apple cider vinegar**
     - 2.5 cups **filtered water**
 
 2. Drain and rinse well. Place in a saucepan and add:
 
-    - 2.5 cups **bone broth** or **filtered water**
+    - 2 cups **bone broth** or **filtered water**
 
 3. Cover and simmer for 10 to 12 minutes, stirring occasionaly, until the buckwheat is soft.
 
