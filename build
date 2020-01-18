@@ -1,10 +1,10 @@
 #!/bin/bash
 
+rm -rf dist
 mkdir -p dist
 
 index="dist/index.html"
 
-rm $index
 touch $index
 printf "<h1>Index</h1>\n" >> $index
 
