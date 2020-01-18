@@ -1,0 +1,11 @@
+#!/bin/bash
+
+mkdir -p dist
+
+for f in $(ls recipes)
+do
+ echo "Processing $f"
+ pandoc -s "recipes/$f" -o "dist/${f%.*}.html"
+done
+
+#find . -name \*.md -type f -exec pandoc -o {}.html dist/{} \;

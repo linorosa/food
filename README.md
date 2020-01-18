@@ -11,3 +11,4 @@ Inspired by:
 ## Using
 
 `./write Hello World` creates `recipes/hello-world.md`.
+`./build` builds html from files under `recipes`.
