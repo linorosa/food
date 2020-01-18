@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p recipes
+
 args=$@
 file_name=$(echo "${args// /-}" | awk '{print tolower($0)}')
 full_path="recipes/$file_name.md"
