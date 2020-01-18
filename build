@@ -16,18 +16,14 @@ do
 
  # replaces .md with .html
  html="${f%.*}.html"
- echo $html
 
  # removes the recipes/ folder
  html="${html#*/}"
- echo $html
 
  title=$(yq read "$f" title)
 
  target="dist/$html"
- echo "$(dirname "$target")"
  mkdir -p "$(dirname "$target")"
- echo "pandoc -s $f -o $target"
  pandoc -s $f -o $target
  printf "<li><a href='$html'>$title</a></li>\n" >> $index
 done
