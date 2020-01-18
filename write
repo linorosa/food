@@ -11,6 +11,4 @@ printf "\n---" >> $full_path
 printf "\ntitle: $args" >> $full_path
 printf "\n---\n" >> $full_path
 
-printf "\n# $args\n\n" >> $full_path
-
 vim $full_path
