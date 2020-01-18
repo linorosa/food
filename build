@@ -2,10 +2,34 @@
 
 mkdir -p dist
 
-for f in $(ls recipes)
+index="dist/index.html"
+
+rm $index
+touch $index
+printf "<h1>Index</h1>\n" >> $index
+
+printf "<ul>\n" >> $index
+
+for f in $(find recipes -type f -regex ".*\.md")
 do
  echo "Processing $f"
- pandoc -s "recipes/$f" -o "dist/${f%.*}.html"
+
+ # replaces .md with .html
+ html="${f%.*}.html"
+ echo $html
+
+ # removes the recipes/ folder
+ html="${html#*/}"
+ echo $html
+
+ title=$(yq read "$f" title)
+
+ target="dist/$html"
+ echo "$(dirname "$target")"
+ mkdir -p "$(dirname "$target")"
+ echo "pandoc -s $f -o $target"
+ pandoc -s $f -o $target
+ printf "<li><a href='$html'>$title</a></li>\n" >> $index
 done
 
-#find . -name \*.md -type f -exec pandoc -o {}.html dist/{} \;
+printf "</ul>\n" >> $index
