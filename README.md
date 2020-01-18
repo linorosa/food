@@ -8,7 +8,7 @@ Inspired by:
 * https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
 * https://christianfei.com/posts/2018-10-31-my-current-blogging-stack/
 
-Needs `yq`: http://mikefarah.github.io/yq/read/
+Needs `jq`: https://stedolan.github.io/jq/
 
 ## Using
 

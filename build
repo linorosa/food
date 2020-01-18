@@ -20,12 +20,15 @@ do
  # removes the recipes/ folder
  html="${html#*/}"
 
- title=$(yq read "$f" title)
-
+ # generate target file
  target="dist/$html"
  mkdir -p "$(dirname "$target")"
  pandoc -s $f -o $target
+
+ title=$(pandoc "$f" --template=templates/metadata.pandoc-tpl | jq -r '.title')
  printf "<li><a href='$html'>$title</a></li>\n" >> $index
+
 done
 
 printf "</ul>\n" >> $index
+
