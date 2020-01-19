@@ -31,5 +31,5 @@ do
 done
 
 # Generates html for index
- pandoc -s $index -o $target
+pandoc -s $index -o "dist/index.html"
 
