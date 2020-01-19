@@ -2,13 +2,9 @@
 
 Generates HTML with Pandoc.
 
-Inspired by:
-
-* https://www.youtube.com/watch?v=HggKRBvjIsQ
-* https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
-* https://christianfei.com/posts/2018-10-31-my-current-blogging-stack/
-
 Needs `jq`: https://stedolan.github.io/jq/
+
+Hosting on the free Netlify plan automatically after a `git push`.
 
 ## Using
 
@@ -17,4 +13,4 @@ Needs `jq`: https://stedolan.github.io/jq/
 
 ## TODO
 
-[ ] 
+[ ] Take folder structure under /recipes into account while building index.html.
