@@ -4,6 +4,13 @@ title: Picadillo Tacos
 source: Cook Once eat All Week (p. 72)
 ---
 
+## Potatoes
+
+Steam potatoes for 30 minutes until easily peeled.
+Peel them and dice them. 
+
+* 1/2 lb yellow potatoes (about 3)
+
 ## Make the picadillo sauce:
 
 Cook on a saucepan for 3 to 4 minutes, until transluscent.
@@ -17,7 +24,7 @@ Add and cook for 30 seconds, until fragrant.
 Pour and stir to combine:
 
 * 1 (8-ounce) can tomato sauce
-* 2 cups water
+* 1.5 cups water
 
 Season with spices and cook for 3 to 4 minutes, until fragrant.
 
@@ -26,13 +33,6 @@ Season with spices and cook for 3 to 4 minutes, until fragrant.
 * 2 tsp ground cumin
 * 1 tsp dried oregano leaves
 * 1/2 tsp ground black pepper
-
-## Potatoes
-
-Meanwhile, steam potatoes for 30 minutes until easily peeled.
-Peel them and dice them. 
-
-* 1/2 lb yellow potatoes
 
 ## Beef
 

@@ -4,20 +4,19 @@ title: Cottage Pie
 source: Cook Once eat All Week (p. 74)
 ---
 
-Cook the ground beef for 10 to 15 minutes on a skillet:
+Steam potatoes on Dutch Oven for 30 minutes until easily peeled.
+
+* yellow potatoes, 3 lb (about 6)
+
+Meanwhile, cook the ground beef for 10 to 15 minutes on a skillet:
 
 * ground beef, 2 lb
 * salt, 1 tsp
 
-Meanwhile, mix the broccoli with oil and roast at 400F for 25 minutes:
+When the potatoes are done, remove and cook broccoli on Dutch Oven until browned:
 
 * 2 cups broccoli
 * salt, 1/2 tsp
-
-Meanwhile, make the mashed potatoes.
-Steam over 1 cup of water for 30 minutes until easily peeled.
-
-* yellow potatoes, 3 lb
 
 Peel the potatoes and mash them. Add and stir until smooth:
 
@@ -48,5 +47,5 @@ Add and bring to a boil:
 
 Spread mashed potatoes over the top.
 
-Bake for 30 minutes until top is slightly browned.
+Bake for 30 minutes at 350F until top is slightly browned.
 
