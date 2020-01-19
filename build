@@ -3,12 +3,12 @@
 rm -rf dist
 mkdir -p dist
 
-index="dist/index.html"
+index="/tmp/index.md"
 
+rm -f $index
 touch $index
-printf "<h1>Index</h1>\n" >> $index
 
-printf "<ul>\n" >> $index
+printf "# Recipes\n\n" >> $index
 
 for f in $(find recipes -type f -regex ".*\.md")
 do
@@ -16,7 +16,6 @@ do
 
  # replaces .md with .html
  html="${f%.*}.html"
-
  # removes the recipes/ folder
  html="${html#*/}"
 
@@ -25,10 +24,12 @@ do
  mkdir -p "$(dirname "$target")"
  pandoc -s $f -o $target
 
+ # Uses pandoc and a custom template the extract the title from the yaml header
  title=$(pandoc "$f" --template=templates/metadata.pandoc-tpl | jq -r '.title')
- printf "<li><a href='$html'>$title</a></li>\n" >> $index
+ printf "* [$title]($html)\n" >> $index
 
 done
 
-printf "</ul>\n" >> $index
+# Generates html for index
+ pandoc -s $index -o $target
 
