@@ -5,6 +5,7 @@ Generates HTML with Pandoc.
 Needs `jq`: https://stedolan.github.io/jq/
 
 Hosting on the free Netlify plan automatically after a `git push`.
+Hosting with Namecheap is a close second option. It's cheap, but not free.
 
 ## Using
 
