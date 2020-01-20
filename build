@@ -1,9 +1,10 @@
 #!/bin/bash
 
-rm -rf dist
-mkdir -p dist
-
 index="/tmp/index.md"
+dist="site"
+
+rm -rf "$dist"
+mkdir -p "$dist"
 
 rm -f $index
 touch $index
@@ -29,7 +30,7 @@ build_folder () {
     html="${html#*/}"      # removes the recipes/ folder
 
     local target
-    target="dist/$html"    # generate target file
+    target="$dist/$html"    # generate target file
 
     mkdir -p "$(dirname "$target")"
     pandoc -s $f -o $target
@@ -54,5 +55,5 @@ build_folder () {
 build_folder "recipes" 1
 
 # Generates html for index
-pandoc -s $index -o "dist/index.html"
+pandoc -s $index -o "$dist/index.html"
 
