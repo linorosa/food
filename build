@@ -8,27 +8,50 @@ index="/tmp/index.md"
 rm -f $index
 touch $index
 
-printf "# Recipes\n\n" >> $index
+build_folder () {
+  local path=$1
+  local level=$2
 
-for f in $(find recipes -type f -regex ".*\.md")
-do
- echo "Processing $f"
+  local category
+  category=$(basename $path)   # only keep last part of path
+  category="${category^}"      # upper case first letter
 
- # replaces .md with .html
- html="${f%.*}.html"
- # removes the recipes/ folder
- html="${html#*/}"
+  for i in $(seq 1 $level); do printf "#" >> $index; done
+  printf " $category\n\n" >> $index
 
- # generate target file
- target="dist/$html"
- mkdir -p "$(dirname "$target")"
- pandoc -s $f -o $target
+  # For each file on $path
+  for f in $(find $path -maxdepth 1 -type f -regex ".*\.md")
+  do
+    echo "Processing file $f"
 
- # Uses pandoc and a custom template the extract the title from the yaml header
- title=$(pandoc "$f" --template=templates/metadata.pandoc-tpl | jq -r '.title')
- printf "* [$title]($html)\n" >> $index
+    local html
+    html="${f%.*}.html"    # replaces .md with .html
+    html="${html#*/}"      # removes the recipes/ folder
 
-done
+    local target
+    target="dist/$html"    # generate target file
+
+    mkdir -p "$(dirname "$target")"
+    pandoc -s $f -o $target
+
+    # Uses pandoc and a custom template the extract the title from the yaml header
+    local title=$(pandoc "$f" --template=templates/metadata.pandoc-tpl | jq -r '.title')
+
+    printf "* [$title]($html)\n" >> $index
+  done
+
+  printf "\n" >> $index
+
+  # For each folder in $path
+  for f in $(find $path -mindepth 1 -maxdepth 1 -type d)
+  do
+    echo "Processing path $f"
+    build_folder $f $(($level+1))
+  done
+
+}
+
+build_folder "recipes" 1
 
 # Generates html for index
 pandoc -s $index -o "dist/index.html"
