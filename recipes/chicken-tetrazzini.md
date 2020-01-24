@@ -21,6 +21,8 @@ Let the chicken cool and cube into 1/2-inch pieces.
 
 Cut a spaguetti squash in two and scoop out the seeds. Then lay them cut side up on a baking sheet.
 
+* 1 spaguetti squash
+
 Bake for 45 to 60 minutes at 400F until it easily pulls away with a fork.
 
 Once cool enough to handle, remove strands.
