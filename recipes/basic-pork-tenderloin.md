@@ -8,9 +8,11 @@ source: Cook Once eat All Week (p. 350)
 
 2) Sprinkle all sides of tenderloin with the rub.
 
-> 2 pork tenderloin
-> 4 tbsp store-bought rub
-> 2 tbsp salt
+```
+2 pork tenderloin
+4 tbsp store-bought rub
+2 tbsp salt
+```
 
 3) Heat a stainless steel skillet over high heat.
 
