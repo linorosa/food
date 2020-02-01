@@ -23,8 +23,8 @@ Reserve liquid for later.
 4) Remove potatoes. On the same large pan, sear onions and add flour slowly.
 
 ```
-1 onion, chopped
-2 garlic cloves, chopped
+1      onion, chopped
+2      garlic cloves, chopped
 2 tbsp flour
 ```
 
@@ -33,8 +33,8 @@ Reserve liquid for later.
 ```
 1 cup milk
 1 cup corn
-liquids from cooked chicken
-tomato paste
+      liquids from cooked chicken
+      tomato paste
 ```
 
 6) Shred the cooked chicken, then add it to the large pan.
