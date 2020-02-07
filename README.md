@@ -11,7 +11,3 @@ Hosting with Namecheap is a close second option. It's cheap, but not free.
 
 `./write Hello World` creates `recipes/hello-world.md`.
 `./build` builds html from files under `recipes`.
-
-## TODO
-
-[ ] Take folder structure under /recipes into account while building index.html.
