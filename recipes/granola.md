@@ -1,5 +1,5 @@
 ---
-title: Buckwheat Granola
+title: Granola
 source: 
 ---
 
@@ -17,7 +17,8 @@ source:
 2. Mix dry ingredients
 
 ```
-3 tbsp cocoa powder
+3 tbsp  cocoa powder
+1/2 cup buckwheat porridge
 ```
 
 
@@ -37,3 +38,9 @@ source:
 1/4 cup butter
 1 tsp   vanilla extract
 ```
+
+4. Place it on a thin layere over parchement-lined baking sheet.
+
+5. Bake at 250F for about 1 hour or until roasted.
+
+6. Let it cool down completely. Break it apart with hands.
