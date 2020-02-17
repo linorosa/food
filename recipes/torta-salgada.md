@@ -5,24 +5,24 @@ title: Torta Salgada
 1. Prepare the dough, mixing thoroughly
 
 ```
-1.5 cups almond flour
-1/2 cup water
-1/4 cup olive oil
-3 eggs
-2 tbsp parmesan
-1 tsp salt
+3 cups  almond flour
+1 cup   water
+1/2 cup olive oil
+6       eggs
+4 tbsp  parmesan
+2 tsp   salt
 ```
 
 2. Add and mix
 
 ```
-1 tbsp baking powder
+2 tbsp baking powder
 ```
 
 3. Prepare the filling and mix in with the dough
 
 ```
-1 lb cooked ground beef
+3 lb cooked ground beef
 frozen veggies
 ```
 
