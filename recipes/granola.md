@@ -41,6 +41,6 @@ source:
 
 4. Place it on a thin layere over parchement-lined baking sheet.
 
-5. Bake at 250F for about 1 hour or until roasted.
+5. Bake at 250F for about 1 hour or until roasted. 
 
 6. Let it cool down completely. Break it apart with hands.
