@@ -33,7 +33,7 @@ build_folder () {
     target="$dist/$html"    # generate target file
 
     mkdir -p "$(dirname "$target")"
-    pandoc -s -c pandoc.css $f -o $target
+    pandoc -s -c "/pandoc.css" $f -o $target
 
     # Uses pandoc and a custom template the extract the title from the yaml header
     local title=$(pandoc "$f" --template=templates/metadata.pandoc-tpl | jq -r '.title')
