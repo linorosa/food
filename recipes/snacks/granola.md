@@ -6,12 +6,12 @@ source:
 1. Mix nuts
 
 ```
-1   cup blanched almonds, chopped
+1/2 cup blanched almonds, chopped
 1/2 cup cashews, chopped
 1/2 cup pecans, chopped
 1/2 cup hazelnuts, chopped
-1/4 cup pumpkin seeds
-1/4 cup sunflower seeds
+1/2 cup pumpkin seeds
+1/2 cup sunflower seeds
 ```
 
 2. Mix dry ingredients
