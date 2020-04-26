@@ -1,6 +1,6 @@
 ---
 title: peanut butter cookies
-source: 
+source: https://www.reddit.com/r/ketorecipes/comments/fuwkkv/keto_peanut_butter_cookies/
 ---
 
 1) Mix all ingredients in a bowl. Dough should be thick and dense
