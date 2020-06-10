@@ -1,5 +1,5 @@
 ---
-title: peanut butter cookies
+title: Peanut Butter Cookies
 source: https://www.reddit.com/r/ketorecipes/comments/fuwkkv/keto_peanut_butter_cookies/
 ---
 
