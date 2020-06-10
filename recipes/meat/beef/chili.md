@@ -14,7 +14,7 @@ source: https://www.youtube.com/watch?v=686A7arZ46U
 
 ```
 1 green bell pepper, diced
-2 yellow bell pepper, diced
+1 yellow bell pepper, diced
 1 jalapeno, sliced
 ```
 
