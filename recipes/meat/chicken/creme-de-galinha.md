@@ -31,7 +31,7 @@ Reserve liquid for later.
 5) Add liquids and heat to incorporate
 
 ```
-1 cup milk
+2 cups heavy cream
 1 cup corn
       liquids from cooked chicken
       tomato paste
@@ -39,8 +39,5 @@ Reserve liquid for later.
 
 6) Shred the cooked chicken, then add it to the large pan.
 
-7) Turn off the heat and add the cream
+> Optionally add 2 tbsp taco seasoning.
 
-```
-1 cup heavy cream
-```

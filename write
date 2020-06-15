@@ -14,4 +14,4 @@ printf "\ntitle: $args" >> $full_path
 printf "\nsource: " >> $full_path
 printf "\n---\n" >> $full_path
 
-vim $full_path
+nvim $full_path
