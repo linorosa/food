@@ -15,7 +15,8 @@ build_folder () {
 
   local category
   category=$(basename $path)   # only keep last part of path
-  category="${category^}"      # upper case first letter
+  category=$(awk '{ print toupper(substr($0, 1, 1)) substr($0, 2) }' <<< $category)
+
 
   for i in $(seq 1 $level); do printf "#" >> $index; done
   printf " $category\n\n" >> $index
