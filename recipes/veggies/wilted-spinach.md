@@ -18,7 +18,7 @@ spinach, a bunch
 3. Add and mix:
 
 ```
-raising, 1/4 cup
+raisins, 1/4 cup
 salt, pinch
 olive oil, 1 tbsp
 vinegar, 1 tbsp
