@@ -39,4 +39,3 @@ a bunch of mushrooms, quartered
 
 7. Mix to incorporate
 
-> try with stew meat cubes, cooking covered in the oven at 325F for 2-4 hours, until tender.
