@@ -9,7 +9,7 @@ source: https://www.mynewroots.org/site/2013/02/the-life-changing-loaf-of-bread/
 1 cup (135g) sunflower seeds
 1/2 cup (90g) flax seeds
 1/2 cup (65g) hazelnuts or almonds
-1/5 cups (145g) rolled oats
+1.5 cups (145g) rolled oats
 2 tbsp chia seeds
 4 tbsp psyllium seed husks (or 3 tbsp if using powder)
 1 tsp fine salt (or 1/2 tsp coarse salt)
