@@ -23,7 +23,7 @@ source: https://www.youtube.com/watch?v=Pfdyuz30oQU
 3. Place ribs on a foil-lined baking sheet. Turn rubs over so meat side is down. Make some small slashes every few inches on the membranes that cover the ribs.
 
 ```
-1 slab pork ribs
+1 slab beef spare ribs (could be pork too)
 ```
 
 4. Brush about 1/2 of the Dijon mustard and sprinkle about 40% of the rub. Turn over and brush the rest of the Dijon mixture and the rub.
