@@ -4,40 +4,45 @@ title: Creme de Galinha
 source: 
 ---
 
-1) Season chicken generally on one side and plcae it on a heated skilled. Season on the other side.
+1) Season chicken on one side with S&P. Place on a hot Dutch Oven and season the other side.
 
 ```
 4 large chicken breasts
 ```
 
-2) Cook the first side 5 minutes on medium. Turn, cover and cook on low for 15 minutes. Deglaze with chicken stock.
+2) Cook the first side 5 minutes on medium. Turn, cover and cook on low for 15 minutes. Remove to cool.
 
-Reserve liquid for later.
-
-3) Meanwhile, on a large pan, boil potatoes until soft.
+3) Sear onions. Once soft add flour slowly.
 
 ```
-5 large potatoes
-```
-
-4) Remove potatoes. On the same large pan, sear onions and add flour slowly.
-
-```
-1      onion, chopped
-2      garlic cloves, chopped
+1 onion, chopped
+2 garlic cloves, chopped
 2 tbsp flour
+```
+
+4) Deglaze with stock.
+
+```
+1 cube chicken stock
+1 cup water
 ```
 
 5) Add liquids and heat to incorporate
 
 ```
 2 cups heavy cream
-1 cup corn
-      liquids from cooked chicken
-      tomato paste
+tomato paste
 ```
 
-6) Shred the cooked chicken, then add it to the large pan.
+6) Add some veggies
 
-> Optionally add 2 tbsp taco seasoning.
+```
+1 cup corn
+1 cup carrots, cubed
+1 cup peas
+```
+
+7) Shred the cooked chicken, then add it to the large pan.
+
+> Optionally add 2 tbsp taco seasoning, or barbecue seasoning.
 
