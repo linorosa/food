@@ -1,0 +1,117 @@
+html {
+    max-width: 60em;
+    margin: auto;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+
+h1 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.step-n {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+.step, .ingredients {
+    max-width: 25em;
+}
+
+.step, .ingredients {
+    margin: auto;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.step {
+    border-style: solid;
+    border-color: LightGray;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.step > .instructions {
+    border-color:DodgerBlue;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.ingredients > ul > li > div {
+    border-color:rgba(255, 165, 0, 1);;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ingredients > ul > li > div:first-child {
+    background-color: rgba(255, 165, 0, 0.3);
+}
+
+.ingredients > ul > li > div:last-child {
+    background-color: rgba(255, 165, 0, 1);
+}
+
+ul {
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li > div {
+    background-color: rgba(30, 144, 255, 0.1);
+    border-color:DodgerBlue;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 0.3em;
+    text-align: center;
+    font-size: 18px;
+}
+
+li > div:first-child {
+    width:11em;
+}
+
+li > div:last-child {
+    width: 5em;
+    background-color:DodgerBlue;
+    color: white;
+}
+
