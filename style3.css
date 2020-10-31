@@ -22,20 +22,23 @@ h1, h2 {
 
 .step-n {
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 20px;
+    height: 20px;
     padding: 8px;
+
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 
     background: #fff;
     border: 2px solid #666;
     color: #666;
     text-align: center;
 
-    font: 32px Arial, sans-serif;
+    font: 1.5em Arial, sans-serif;
     position: absolute;
-    top: -30px;
-    left: -30px;
+    top: -25px;
+    left: -25px;
 }
 
 .step, .ingredients {
@@ -75,6 +78,7 @@ h1, h2 {
     padding: 0.5em;
     padding-top: 1em;
     padding-bottom: 1em;
+    margin-top: 0.5em;
     text-align: center;
 }
 
