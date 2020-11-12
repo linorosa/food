@@ -106,6 +106,7 @@ h1, h2 {
 
 .ingredients > ul > li > div:last-child {
     background-color: rgba(255, 165, 0, 1);
+    font-size: 90%;
 }
 
 .prep > ul > li > div {
@@ -120,6 +121,7 @@ h1, h2 {
 
 .prep > ul > li > div:last-child {
     background-color: rgba(138, 43, 226, 1);
+    font-size: 90%;
 }
 
 ul {
@@ -140,17 +142,22 @@ li > div {
     border-style: solid;
     border-width: 1px;
     border-radius: 3px;
-    padding: 0.3em;
     text-align: center;
     font-size: 18px;
 }
 
+li > div {
+    height: 38px;
+    line-height: 38px;
+}
+
 li > div:first-child {
-    flex: 0 0 calc(70% - 0.6em - 0.3em);
+    flex: 0 1 calc(70% - 0.3em);
 }
 
 li > div:nth-child(2) {
-    flex: 0 0 calc(30% - 0.6em - 0.3em);
+    flex: 0 1 calc(30% - 0.3em);
+    font-size: 12px;
     background-color:DodgerBlue;
     color: white;
 }
