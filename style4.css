@@ -1,0 +1,166 @@
+html {
+    font-size: 50%;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.step-n {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 1.5em Arial, sans-serif;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+}
+
+.cook, .prep, .ingredients {
+    max-width: 25em;
+    padding: 1em;
+}
+
+.cook, .prep, .ingredients {
+    margin: auto;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.cook, .prep {
+    border-style: solid;
+    border-color: LightGray;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+ul {
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    text-align: left;
+    font-size: 18px;
+}
+
+li div {
+    height: 38px;
+    line-height: 38px;
+}
+
+li, ul {
+    border-color: inherit;
+}
+
+li > div:nth-child(1) {
+    flex: 1 1 calc(70% - 1.3em);
+    padding-left: 1em;;
+}
+
+li > div:nth-child(2) {
+    flex: 0 1 calc(30% - 0.3em);
+    font-size: 12px;
+    border-left: 1px solid;
+    border-color: inherit;
+    text-align: center;
+}
+
+li > div:nth-child(3) {
+    flex: 1 1;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+}
+
+.notes {
+    border-color: inherit;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 3px;
+    padding: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.notes + .notes {
+    margin-top: 10px;
+}
+
+.ingredients {
+    border-color: rgba(255, 165, 0, 1);
+}
+
+.ingredients li > div {
+    background-color: rgba(255, 165, 0, 0.3);
+}
+
+.ingredients > ul > li > div:nth-child(3){
+    background-color: rgba(255, 165, 0, 1);
+    color: white;
+}
+
+.prep {
+    border-color: rgba(138, 43, 226, 1);
+}
+
+.prep li > div {
+    background-color: rgba(138, 43, 226, 0.3);
+}
+
+.prep > ul > li > div:nth-child(3){
+    background-color: rgba(138, 43, 226, 1);
+    color: white;
+}
+
+.cook {
+    border-color: DodgerBlue;
+}
+
+.cook li > div {
+    background-color: rgba(30, 144, 255, 0.1);
+}
+
+.cook > ul > li > div:nth-child(3){
+    background-color: DodgerBlue;
+    color: white;
+}
+
