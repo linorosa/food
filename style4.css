@@ -41,18 +41,12 @@ h1, h2 {
     left: -25px;
 }
 
-.cook, .prep, .ingredients {
+body > div {
     max-width: 25em;
     padding: 1em;
-}
-
-.cook, .prep, .ingredients {
     margin: auto;
     margin-bottom: 40px;
     position: relative;
-}
-
-.cook, .prep {
     border-style: solid;
     border-color: LightGray;
     border-radius: 5px;
@@ -151,15 +145,15 @@ li > div:nth-child(3) {
     color: white;
 }
 
-.cook {
+body > div {
     border-color: DodgerBlue;
 }
 
-.cook li > div {
+body > div li > div {
     background-color: rgba(30, 144, 255, 0.1);
 }
 
-.cook > ul > li > div:nth-child(3){
+body > div > ul > li > div:nth-child(3){
     background-color: DodgerBlue;
     color: white;
 }
