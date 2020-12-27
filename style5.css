@@ -20,7 +20,27 @@ h1, h2 {
     text-align: center;
 }
 
-.step-n {
+ol {
+    list-style: none;
+}
+
+.container {
+    padding: 1em;
+    margin: auto;
+    margin-bottom: 40px;
+    position: relative;
+    border-style: solid;
+    border-color: LightGray;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.cook .container {
+    counter-increment: inst;
+}
+
+.cook .container::before {
+    content: counter(inst);
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -41,23 +61,12 @@ h1, h2 {
     left: -25px;
 }
 
-body > div {
-    padding: 1em;
-    margin: auto;
-    margin-bottom: 40px;
-    position: relative;
-    border-style: solid;
-    border-color: LightGray;
-    border-radius: 5px;
-    border-width: 1px;
-}
-
-ul {
+ol {
     padding-inline-start: 0;
     padding-inline-end: 0;
 }
 
-li {
+.container li {
     list-style: none;
     margin-bottom: 4px;
     display: flex;
@@ -70,21 +79,21 @@ li {
     font-size: 1.8rem;
 }
 
-li div {
+.container li div {
     height: 38px;
     line-height: 38px;
 }
 
-li, ul {
+.container li, ol {
     border-color: inherit;
 }
 
-li > div:nth-child(1) {
+.container li > div:nth-child(1) {
     flex: 1 1 calc(70% - 1.3em);
     padding-left: 1em;;
 }
 
-li > div:nth-child(2) {
+.container li > div:nth-child(2) {
     flex: 0 1 calc(30% - 0.3em);
     font-size: 1.2rem;
     border-left: 1px solid;
@@ -92,7 +101,7 @@ li > div:nth-child(2) {
     text-align: center;
 }
 
-li > div:nth-child(3) {
+.container li > div:nth-child(3) {
     flex: 1 1;
     height: 24px;
     line-height: 24px;
@@ -103,9 +112,9 @@ li > div:nth-child(3) {
     text-align: center;
 }
 
-.notes {
-    border-color: inherit;
-    border-style: dotted;
+.container p {
+    /* border-color: inherit; */
+    /* border-style: dotted; */
     border-width: 1px;
     border-radius: 3px;
     padding: 0.5em;
@@ -114,45 +123,52 @@ li > div:nth-child(3) {
     text-align: center;
 }
 
-.notes + .notes {
-    margin-top: 10px;
+.container p {
+    font-size: .9em;
+    margin: 0;
+    padding: 0;
 }
 
-.ingredients {
+.container ol + p {
+    margin-top: 1em;
+}
+
+.ingredients::before {
+    content: "Ingredients";
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.cook::before {
+    content: "Steps";
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.ingredients > .container {
     border-color: rgba(255, 165, 0, 1);
 }
 
-.ingredients li > div {
+.ingredients .container li > div {
     background-color: rgba(255, 165, 0, 0.3);
 }
 
-.ingredients > ul > li > div:nth-child(3){
+.ingredients .container li > div:nth-child(3){
     background-color: rgba(255, 165, 0, 1);
     color: white;
 }
 
-.prep {
-    border-color: rgba(138, 43, 226, 1);
-}
-
-.prep li > div {
-    background-color: rgba(138, 43, 226, 0.3);
-}
-
-.prep > ul > li > div:nth-child(3){
-    background-color: rgba(138, 43, 226, 1);
-    color: white;
-}
-
-body > div {
+.cook .container {
     border-color: DodgerBlue;
 }
 
-body > div li > div {
+.cook .container li > div {
     background-color: rgba(30, 144, 255, 0.1);
 }
 
-body > div > ul > li > div:nth-child(3){
+.cook .container li > div:nth-child(3){
     background-color: DodgerBlue;
     color: white;
 }
