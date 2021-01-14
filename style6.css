@@ -8,12 +8,15 @@ body {
 }
 
 h1 {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 h1, h2 {
     text-align: center;
+}
+
+h6 {
+    margin-bottom: 0.2em;
 }
 
 .title {
@@ -26,17 +29,10 @@ ol {
 
 .container {
     padding: 1em;
+    padding-top: 0;
     margin: auto;
     margin-bottom: 40px;
     position: relative;
-}
-
-.container {
-    white-space: pre-line;
-}
-
-.container ol {
-    white-space: normal;
 }
 
 ol {
