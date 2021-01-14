@@ -1,0 +1,134 @@
+html {
+
+}
+
+body {
+    text-align: left;
+    max-width: 28em;
+}
+
+h1 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+}
+
+.container {
+    padding: 1em;
+    margin: auto;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+ol {
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+}
+
+.container li {
+    list-style: none;
+    margin-bottom: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.group {
+    list-style: none;
+    margin-bottom: 4px;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.container li div {
+    height: 38px;
+    line-height: 38px;
+}
+
+.container li, ol {
+    border-color: inherit;
+}
+
+.container span {
+    border-color: inherit;
+}
+
+.container li > div:nth-child(1) {
+    flex: 1 1 calc(70% - 1.3em);
+    padding-left: 1em;;
+}
+
+.container li > div:nth-child(2) {
+    flex: 0 1 calc(30% - 0.3em);
+    font-size: 1.2rem;
+    border-left: 1px solid;
+    border-color: inherit;
+    text-align: center;
+}
+
+.container li > div:nth-child(3) {
+    flex: 1 1;
+    height: 24px;
+    line-height: 24px;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+}
+
+.ingredients > .container {
+    border-color: rgba(138, 43, 226, 1);
+}
+
+.ingredients .container li > div {
+    background-color: rgba(138, 43, 226, 0.3);
+}
+
+.ingredients .container li > div:nth-child(3){
+    background-color: rgba(138, 43, 226, 1);
+    color: white;
+}
+
+.cook .container {
+    border-color: DodgerBlue;
+}
+
+span {
+    border-color: inherit;
+    border: 1px solid;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.cook .container li > div, .cook span {
+    background-color: rgba(30, 144, 255, 0.1);
+}
+
+.cook .container li > div:nth-child(3){
+    background-color: DodgerBlue;
+    color: white;
+}
