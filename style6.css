@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    text-align: left;
+    text-align: justify;
     max-width: 28em;
 }
 
@@ -29,6 +29,14 @@ ol {
     margin: auto;
     margin-bottom: 40px;
     position: relative;
+}
+
+.container {
+    white-space: pre-line;
+}
+
+.container ol {
+    white-space: normal;
 }
 
 ol {
