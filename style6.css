@@ -23,6 +23,11 @@ h6 {
     text-align: center;
 }
 
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 ol {
     list-style: none;
 }
