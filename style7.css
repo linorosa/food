@@ -46,14 +46,14 @@ ol {
   list-style: none;
   padding-left: 2%;
 }
-li {
+ol li {
   margin: 2em 0;
   padding-top: 1em;
   display: block;
   position: relative;
   counter-increment: inst;
 }
-li::before {
+ol li::before {
   content: counter(inst);
 
   background: rgba(255, 150, 0, 0.35);
