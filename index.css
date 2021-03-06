@@ -1,0 +1,85 @@
+body {
+    text-align: left;
+}
+.group > a {
+    display: block;
+    line-height: 2em;
+    text-decoration: none;
+}
+.box {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+.group {
+    text-align: center;
+    flex: 0 0 25em;
+    margin: 5px;
+    border-color: LightGray;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.group > a {
+    padding: 0.3em;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+}
+
+a {
+    text-align: center;
+    flex: 0 0 25em;
+    border-color: LightGray;
+    border-radius: 5px;
+    border-width: 0px;
+}
+a {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+a > img {
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0.6) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0.6) 100%);
+    width: 98%;
+    height: 200px;
+    object-fit: cover;
+    margin: 0;
+    box-shadow: 0 0 8px 8px white inset;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+a:hover {
+    border: none;
+}
+a:hover > img {
+    color: #2c8898;
+    border-style: solid;
+    border-color:DodgerBlue;
+}
+
+a > h4 {
+    text-shadow: 0 1px 0 black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 0;
+    color: white;
+}
+
+a {
+    position: relative;
+    overflow: hidden;
+}
+
+hr {
+    border-style: dashed;
+    border-width: 1px;
+}
