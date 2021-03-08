@@ -81,23 +81,6 @@ ol li::before {
   z-index: -1;
 }
 
-
-// Image
-a > img {
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0.6) 100%);
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0.6) 100%);
+img {
+    border-radius: 15px;
 }
-
-// put this on the text for the image
- text-shadow: 0 1px 0 black;
- position: absolute;
-   bottom: 0;
-   left: 0;
-   width: 100%;
-   padding: 20px 10px;
-   margin: 0;
-   color: white;
-
-// put this on the text container
-  position: relative;
-  overflow: hidden;
