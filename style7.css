@@ -38,7 +38,16 @@ span {
 
     flex-grow: 0;
     flex-shrink: 1;
-    flex-basis: 47%;
+    flex-basis: 48%;
+}
+
+@media only screen and (max-width: 600px) {
+  div {
+    justify-content: center;
+  }
+  span {
+    flex-basis: 80%;
+  }
 }
 
 ol {
