@@ -84,3 +84,13 @@ hr {
     border-style: dashed;
     border-width: 1px;
 }
+
+@media only screen and (max-width: 768px) {
+  .box {
+    justify-content: center;
+  }
+  a {
+    flex-basis: 70%;
+  }
+}
+
