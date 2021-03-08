@@ -16,6 +16,8 @@ div {
 
 div > span {
     margin: 4px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 span {
@@ -39,15 +41,6 @@ span {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 48%;
-}
-
-@media only screen and (max-width: 600px) {
-  div {
-    justify-content: center;
-  }
-  span {
-    flex-basis: 80%;
-  }
 }
 
 ol {
@@ -92,4 +85,20 @@ ol li::before {
 
 img {
     border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  div {
+    justify-content: center;
+  }
+  div > span {
+    flex-basis: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div > span {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
