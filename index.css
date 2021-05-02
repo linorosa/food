@@ -1,5 +1,8 @@
 body {
     text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 10px;
 }
 .group > a {
     display: block;
